@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    background-color: black;
+    font-family: monospace;
+}
+
+
+/* Navbar */
+.header{
+    border: 3px solid aqua;
+}
+
+.header .container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid blue;
+    margin: auto;
+}
+
+.active{
+    color: red;
+}
+
+.header ul{
+    color: white;
+    font-weight: 500;
+}
+
+.header-title{
+    color: aqua;
+    border: 3px solid red;
+    width: fit-content;
+}
+
+.navBar{
+    color: white;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    border: 3px solid green;
+    padding: 0;
+}
