@@ -4,32 +4,41 @@ body{
     font-family: monospace;
 }
 
-
-/* Navbar */
-.header{
-    border: 3px solid aqua;
-}
-
-.header .container{
+.container{
     width: 80%;
     display: flex;
-    justify-content: space-between;
-    border: 3px solid blue;
     margin: auto;
 }
 
+a{
+    text-decoration: none;
+    color: chocolate;
+}
+
+a .active{
+    color: #32b9cd;
+}
+
+/* Navbar */
+.header{
+    border-bottom: 3px solid aqua;
+}
+
+.header .container{
+    justify-content: space-between;
+}
+
 .active{
-    color: red;
+    color: aqua;
 }
 
 .header ul{
-    color: white;
+    color: chocolate;
     font-weight: 500;
 }
 
 .header-title{
     color: aqua;
-    border: 3px solid red;
     width: fit-content;
 }
 
@@ -40,6 +49,116 @@ body{
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
-    border: 3px solid green;
     padding: 0;
 }
+
+.navBar li{
+    cursor: pointer;
+}
+/* fim do header */
+
+/* banner site */
+.banner{
+    background-image: url("img/bg-jelly-fish-para-home.png");
+    background-repeat: no-repeat;
+    background-position: -40%;
+    background-size: cover;
+    height: calc(100vh - 60px);
+    color: white;
+    display: flex;
+}
+
+.banner .container p .destaque{
+    font-weight: bold;
+}
+
+.banner .container{
+    justify-content: center;
+    font-size: 36px;
+}
+
+.banner .container p{
+    width: 20%;
+}
+/* fim banner */
+
+/* Social */
+.social{
+    background-color: beige;
+    display: flex;
+}
+
+.social .container .boxes{
+    display: flex;       
+}
+
+.box{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social .container .boxes .box img{
+    width: 150px;
+}
+/* fim do social */
+
+/* footer */
+.footer{
+    background-color: #32b9cd;
+    height: 100px;
+    color: #fff;
+    display: flex;
+}
+
+.footer .container{
+    justify-content: center;
+    font-size: 20px;
+}
+/* fim footer */
+
+/* Login */
+.banner .container .card{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    color: palevioletred;
+    align-items: center;
+    border-radius: 6%;    
+}
+
+.card h1{
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+.card h4{
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-right: 27%;
+}
+
+.card input{
+    border: 2px solid palevioletred;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.card button{
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    color: #fff;
+    font: bold 15px monospace;
+    background-color: palevioletred;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+
+
