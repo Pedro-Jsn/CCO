@@ -60,10 +60,8 @@ a .active{
 /* banner site */
 .banner{
     background-image: url("img/bg-jelly-fish-para-home.png");
-    background-repeat: no-repeat;
-    background-position: -40%;
     background-size: cover;
-    height: calc(100vh - 60px);
+    height: 806px;
     color: white;
     display: flex;
 }
@@ -131,7 +129,7 @@ a .active{
 }
 
 .card h1{
-    margin-top: 60px;
+    margin-top: 40px;
     font-size: 30px;
 }
 
@@ -139,6 +137,37 @@ a .active{
     font-size: 16px;
     margin-bottom: 0;
     margin-right: 27%;
+}
+
+.card .title-endereco{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card .title-endereco h4{
+    margin-right: 35%;
+    padding-left: 10%;
+}
+
+.card .title-endereco .endereco{
+    margin-left: 10%;
+}
+
+.card .ipts-endereco{
+    display: flex;
+}
+
+.card .ipts-endereco input{
+    margin-left: 15px;
+}
+
+.card select{
+    margin-left: 13%;
+    border: 2px solid palevioletred;
+    border-radius: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    padding: 6px;
 }
 
 .card input{
@@ -149,8 +178,8 @@ a .active{
 
 .card button{
     width: 100px;
-    height: 30px;
-    margin-top: 30px;
+    height: 40px;
+    margin-top: 20px;
     color: #fff;
     font: bold 15px monospace;
     background-color: palevioletred;
@@ -159,6 +188,87 @@ a .active{
     cursor: pointer;
 }
 
+
+/* Cadastro */
+.cadastro{
+    background-image: url("img/bg-jelly-fish-para-home.png");
+    background-size: cover;
+    height: 806px;
+    color: white;
+    display: flex;
+}
+
+.cadastro .container .card{
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    color: palevioletred;
+    align-items: center;
+    border-radius: 6%;    
+    margin: 0 auto;
+}
+
+.card h1{
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.card h4{
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-right: 27%;
+}
+
+.card .title-endereco{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card .title-endereco h4{
+    margin-right: 35%;
+    padding-left: 10%;
+}
+
+.card .title-endereco .endereco{
+    margin-left: 10%;
+}
+
+.card .ipts-endereco{
+    display: flex;
+}
+
+.card .ipts-endereco input{
+    margin-left: 15px;
+}
+
+.card select{
+    margin-left: 13%;
+    border: 2px solid palevioletred;
+    border-radius: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    padding: 6px;
+}
+
+.card input{
+    border: 2px solid palevioletred;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.card button{
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    color: #fff;
+    font: bold 15px monospace;
+    background-color: palevioletred;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
 
 
 
